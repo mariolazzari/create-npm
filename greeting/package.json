@@ -1,0 +1,22 @@
+{
+  "name": "greeting_package",
+  "version": "1.0.0",
+  "description": "This package is for greeting a person during the day",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codeef/greeting_package"
+  },
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "codeef",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^4.54.0",
+    "rollup-plugin-delete": "^3.0.2",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.9.3"
+  }
+}
